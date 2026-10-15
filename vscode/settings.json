@@ -1,0 +1,108 @@
+{
+  // ═══════════════════════════════════════════
+  //  ШРИФТ
+  // ═══════════════════════════════════════════
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, monospace",
+  "editor.fontLigatures": true, // гарні символи => === !==
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2, // повітря між рядками, легше читати
+
+  // ═══════════════════════════════════════════
+  //  ПОВЕДІНКА РЕДАКТОРА
+  // ═══════════════════════════════════════════
+  "editor.tabSize": 2, // стандарт для фронтенду
+  "editor.formatOnSave": true, // автоформат при збереженні
+  "editor.formatOnPaste": true,
+  "editor.bracketPairColorization.enabled": true, // дужки різних кольорів
+  "editor.guides.bracketPairs": "active", // лінії між парними дужками
+  "editor.linkedEditing": true, // відкривний тег ↔ закривний змінюється сам
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false, // мінімапа зазвичай зайва, прибираємо шум
+
+  // ═══════════════════════════════════════════
+  //  ФАЙЛИ
+  // ═══════════════════════════════════════════
+  "files.autoSave": "onFocusChange", // зберігає при перемиканні (звикай і до Cmd+S)
+  "files.trimTrailingWhitespace": true, // прибирає зайві пробіли в кінці рядків
+  "files.insertFinalNewline": true, // порожній рядок у кінці файлу (хороший тон)
+
+  // ═══════════════════════════════════════════
+  //  ЗОВНІШНІЙ ВИГЛЯД
+  // ═══════════════════════════════════════════
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none", // не показувати вітальну вкладку
+
+  // ═══════════════════════════════════════════
+  //  ТЕРМІНАЛ
+  // ═══════════════════════════════════════════
+  "terminal.integrated.fontSize": 13,
+
+  // ═══════════════════════════════════════════
+  //  EMMET (швидка верстка)
+  // ═══════════════════════════════════════════
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact", // Emmet працює і в JSX
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // ═══════════════════════════════════════════
+  //  ФОРМАТУВАННЯ — Prettier за замовчуванням
+  // ═══════════════════════════════════════════
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // ═══════════════════════════════════════════
+  //  PRETTIER — дефолтний стиль (діє, якщо в проєкті немає .prettierrc)
+  // ═══════════════════════════════════════════
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.quoteProps": "as-needed",
+  "prettier.jsxSingleQuote": false,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": true,
+  "prettier.bracketSameLine": false,
+  "prettier.arrowParens": "always",
+  "prettier.endOfLine": "lf",
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "chat.mcp.gallery.enabled": true,
+  "claudeCode.preferredLocation": "panel",
+  "fiveServer.highlight": true,
+  "fiveServer.injectBody": true,
+  "fiveServer.navigate": true,
+  "chat.disableAIFeatures": true,
+  "workbench.editorAssociations": {
+    "*.svg": "default",
+  },
+  "cSpell.userWords": ["Camila", "Ecommerce", "goit", "Repeta"],
+  "claudeUsageBar.displayMode": "both",
+  "claudeUsageBar.showProgressBar": false,
+  "claudeUsage.statusBarDisplay": "session",
+  "git.confirmSync": false,
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
+  "githubPullRequests.fileListLayout": "tree",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on",
+  },
+  "json.schemas": [],
+  "js/ts.suggest.completeFunctionCalls": true,
+  "js/ts.experimental.useTsgo": true,
+  "console-ninja.featureSet": "Community",
+  "claudeCode.hideOnboarding": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+}

@@ -1,0 +1,9 @@
+aaron-bond.better-comments
+alefragnani.bookmarks
+anysphere.remote-ssh
+esbenp.prettier-vscode
+kisstkondoros.vscode-gutter-preview
+pkief.material-icon-theme
+ritwickdey.liveserver
+vunguyentuan.vscode-css-variables
+zhuangtongfa.material-theme

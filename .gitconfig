@@ -1,5 +1,5 @@
 [user]
-	name = Roman S.
+	name = Roman Shostak
 	email = shostak.roman@icloud.com
 [filter "lfs"]
 	required = true
@@ -7,7 +7,7 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 [core]
-	excludesFile = /Users/ju1ceee/.gitignore_global
+	excludesFile = ~/.gitignore_global
 	pager = delta
 	editor = nano
 [interactive]

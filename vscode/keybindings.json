@@ -1,0 +1,22 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+l cmd+c",
+    "command": "-fiveServer.close",
+    "when": "editorTextFocus",
+  },
+  {
+    "key": "cmd+l cmd+o",
+    "command": "-fiveServer.openViaShortcut",
+    "when": "editorTextFocus",
+  },
+
+  {
+    "key": "cmd+l",
+    "command": "runCommands",
+    "args": {
+      "commands": ["cursorHome", "cursorLineEndSelect"],
+    },
+    "when": "textInputFocus",
+  },
+]
