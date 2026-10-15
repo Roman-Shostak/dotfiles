@@ -1,0 +1,29 @@
+[user]
+	name = Roman S.
+	email = shostak.roman@icloud.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[core]
+	excludesFile = /Users/ju1ceee/.gitignore_global
+	pager = delta
+	editor = nano
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+	syntax-theme = ansi
+	true-color = never
+[merge]
+	conflictStyle = zdiff3
+[diff]
+	colorMoved = default
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[fetch]
+	prune = true

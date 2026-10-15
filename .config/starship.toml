@@ -1,0 +1,40 @@
+add_newline = true
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$nodejs\
+$cmd_duration\
+$line_break\
+$character"""
+
+[directory]
+style = "bold blue"
+format = "[\uf07b $path]($style)[$read_only]($read_only_style) "
+truncation_length = 3
+truncate_to_repo = true
+read_only = " \uf023"
+
+[git_branch]
+symbol = "\ue0a0 "
+style = "bold purple"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bold yellow"
+format = '([$all_status$ahead_behind]($style) )'
+
+[nodejs]
+symbol = "\ue718 "
+style = "bold green"
+format = "[$symbol$version]($style) "
+
+[cmd_duration]
+min_time = 2000
+style = "dimmed white"
+format = "[took $duration]($style)"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
